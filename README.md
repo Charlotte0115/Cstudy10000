@@ -23,7 +23,8 @@ int main(void)
         {
             total += score[i][j];
         }
-        
+        avg = total / 4.5;
+        printf("ㅊㅗㅇㅈㅓㅁ : %d, ㅍㅕㅇㄱㅠㄴ : %.2lf\n", total, avg);
     }
     
     return 0;
