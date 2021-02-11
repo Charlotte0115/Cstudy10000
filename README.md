@@ -16,5 +16,15 @@ int main(void)
         }
     }
     
+    for (i = 0; i < 10; i++)
+    {
+        total = 0;
+        for (j = 0; j < 6; j++)
+        {
+            total += score[i][j];
+        }
+        
+    }
+    
     return 0;
 }
