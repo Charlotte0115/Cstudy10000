@@ -9,7 +9,7 @@ int main(void)
     
     for (i = 0; i < 10; i++)
     {
-        printf("6ㅈㅓㄴㄱㅗㅇ ㄱㅗㅏㅁㅗㄱㅇㅡㅣ ㅈㅓㅁㅅㅜㄹㅡㄹ ㅇㅣㅂㄹㅕㄱ : ");
+        printf("6전공 과목의 점수를 입력 : ");
         for (j = 0; j < 6; j++)
         {
             scnaf("%d", &score[i][j]);
@@ -24,7 +24,7 @@ int main(void)
             total += score[i][j];
         }
         avg = total / 4.5;
-        printf("ㅊㅗㅇㅈㅓㅁ : %d, ㅍㅕㅇㄱㅠㄴ : %.2lf\n", total, avg);
+        printf("총점 : %d, 평균 : %.2lf\n", total, avg);
     }
     
     return 0;
